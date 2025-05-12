@@ -1,0 +1,2 @@
+new Swiper(".mySwiper",{slidesPerView:1,spaceBetween:10,pagination:{el:".swiper-pagination",clickable:!0},breakpoints:{640:{slidesPerView:2,spaceBetween:20},1280:{slidesPerView:2,slidesPerGroup:2,grid:{rows:2,fill:"row"},spaceBetween:30}}});const e=document.querySelector(".scroll-to-top");window.addEventListener("scroll",()=>{window.scrollY>300?e.classList.add("visible"):e.classList.remove("visible")}),e.addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"})});
+//# sourceMappingURL=Museum.89892c32.js.map
